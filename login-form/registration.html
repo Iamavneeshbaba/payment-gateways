@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container clearfix">
+            <div class="form registration">
+                <a class="logo" href="">
+                    <img src="img/logo.png" alt="Logo" />
+                </a>
+                <form action="../codefiles/signup.php" method="post">
+                    <p>
+                        <label>First name<span>*</span></label>
+                        <input type="text" name="firstname" required>
+                    </p>
+                    <p>
+                        <label>Last name<span>*</span></label>
+                        <input type="text" name="lastname" required>
+                    </p>
+                    <p>
+                        <label>Email address<span>*</span></label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Password<span>*</span></label>
+                        <input type="password" name="password" required>
+                    </p>
+                    <p>
+                        <label>Again password<span>*</span></label>
+                        <input type="password" name="cpassword" required>
+                    </p>
+                    <p>
+                        <label>
+                            <a href="index.html">Have an account</a>
+                        </label>
+                        <input type="submit" name="submit" value="Signup" />
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
